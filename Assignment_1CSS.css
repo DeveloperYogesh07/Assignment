@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;  
+ 
+}
+header{
+    background-image: url(image.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: darkgreen;
+    padding: 2px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+}
+ul li.active a{
+    background-color: white;
+    color:black;
+}
+.logo img{
+    float: left;
+    height: auto;
+    width: 70px;
+}
+.welcome-tag{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin: 20% 30%;
+    text-align: center;
+
+}
+.welcome-tag h1{
+    color: white;
+    font-size: 60px;
+}
+.welcome-tag a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.welcome-tag a:hover{
+    background-color: white;
+    color:black;
+}

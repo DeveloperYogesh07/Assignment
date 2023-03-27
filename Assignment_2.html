@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assginment_2CSS.css">
+    <title>registration form</title>
+</head>
+<body bgcolor="lighblue">
+    
+    <div class="containor">
+       <center><h1>Registration form</h1></center> 
+       <hr>
+    <label>Firstname</label>
+        <input type="text" name="firstname" placeholder="firstname" size="15"> <br><br>
+    <label>MiddleName</label>
+        <input type="text" name="middlename" placeholder="middlename" size="15"><br><br>
+    <label> Lastname</label>
+        <input type="text" name="lastname" placeholder="lastname" size="15"><br><br>
+  <div>
+        <label> Course</label>
+        <select>
+            <option value="course">Course</option>
+            <option value="BA">BA</option>
+            <option value="MA">MA</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="BCOM">BCOM</option>
+            <option value="MCOM">MCOM</option>
+            <option value="BSC">BSC</option>
+            <option value="MSC">MSC</option>
+            <option value="BTech">BTech</option>
+            <option value="MTech">MTech</option>
+        </select>
+         <br><br>
+    </div>
+    <div>
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="Gender" value="other">
+        <label for="other">Other</label> <br><br>
+    </div>
+        <label> Phone number</label>
+        <input type="text" name="number" size="10"><br><br>
+         Address
+         <br>
+        <Address>
+            <textarea name="Address" id="Address" cols="30" rows="10"></textarea><br><br>
+        </Address>
+        Email
+        <input type="email" class="Email" id="email" placeholder="Enter email" name="email"><br><br>
+        Password
+        <input type="Password" id="Password" placeholder="password" name="Password"><br><br>
+        Re-type Password
+        <input type="password" id="repass" placeholder="re-type password" name="repasss"><br><br>
+        <input type="button"  class="registerbtn" value="submit"><br><br>
+    </div>
+</body>
+</html>
