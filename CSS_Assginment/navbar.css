@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.navbar{
+    overflow: hidden;
+    background-color: black;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    float:left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .navbar ul li a{
+        float: none;
+        width: 100%;
+    }
+
+}
