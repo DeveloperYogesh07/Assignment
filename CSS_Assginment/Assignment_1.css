@@ -7,7 +7,7 @@
 }
 
 .containor{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/image.jpeg);
     background-size: cover;
    height: 100vh;
    background-position: fixed;

@@ -4,7 +4,7 @@
  
 }
 header{
-    background-image: url(image.jpeg);
+    background-image: url(./media/image.jpeg);
     height: 100vh;
     background-size: cover;
     background-position: center;
