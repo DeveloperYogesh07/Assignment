@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Rubik Pixels', cursive;
+}
+.containor{
+    border: 2px solid black;
+    margin: 0px  500px;
+    background-color: lightcyan;
+}
+.text-center{
+    text-align: center;
+}
+.button{
+    width: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor:grabbing;
+}
+.flex{
+   display: flex;
+}
+
+.flex-col{
+ flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    margin: 12px 0;
+}
+.row input{
+    width:270px;
+    font-size: 20px;
+    margin: 0;
+    padding: 14px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}

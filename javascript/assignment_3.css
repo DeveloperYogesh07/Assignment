@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#card{
+   /* margin: 50px auto; */
+   /* background-color: black;
+   border: 5px solid red; */
+   margin-left: 69px;;
+}
+
+.leftArrow{
+      margin-left: 343px;
+      margin-top: 268px;
+    }
+.rightArrow{
+        margin-left: 68px;
+        margin-top: 268px;
+    }
+.contaion{
+    display: flex;
+}
+/* Name: Mohit Sharma <br> Designation: Web Devloper <br>project: Responsive Website Using HTML,css,js <br> Year of Experience : 2 */

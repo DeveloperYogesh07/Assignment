@@ -1,0 +1,31 @@
+[
+{
+    "id":"01",
+    "image":"./image/image1.jpg",
+    "name" : "Mohit Sharma",
+    "age" : "30",
+    "Designation": "Web Developer",
+    "project": "Responsive Website Using HTML,css,js",
+    "YearOfExperience": "3"
+    },
+    {
+    "id":"02",
+    "image":"./image/image2.jpg",
+    "name" : "selena",
+    "age" : "40",
+    "Designation": "data Engineer",
+    "project": "Data science project",
+    "Year of Experience": "5"
+    },
+    {
+     "id":"03",
+     "image":"./image/image3.jpg",
+    "name" : "shubham kumar",
+    "age" : 25,
+    "Designation": "Dev-ops Engineer",
+    "project": "WebServer using Docker",
+    "Year of Experience": "3"
+    }
+
+  
+]
