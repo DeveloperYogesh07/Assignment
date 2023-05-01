@@ -12,47 +12,38 @@ function showUserDetails(currentUser) {
 }
 let users = [];
 var currentUser;
-var cuser;
-const forwardClick = 1;
-const backwardClick = -1;
+var index=0;
+// const forwardClick = 1;
+// const backwardClick = -1;
 
 //Onload first will calll fetch api to get the json data
 fetch('./data.json')
   .then(async function (response) {
     users = await response.json();
     // console.log(users);
-    currentUser = users[0];
+    currentUser = users[index];
     // calling userdetail function here
     showUserDetails(currentUser);
   });
 
 function leftClick() {
-  if(currentUser == users[0]){
-    cuser = 3;
+  if(index == 0){
+    index = index + users.length;
   }
-  else if(currentUser == users[2]){
-    cuser = 2;
-  }
-  else{
-    cuser = 1;
-  }
-  currentUser = users[cuser+backwardClick];
-  showUserDetails(currentUser);
+  else if(index>0){
+   index = index-1;
+  showUserDetails(users[index]);
+  // console.log(index);
 }
+}
+
 function rightClick() {
-  if(currentUser == users[0]){
-    cuser = 0;
-  }
-  else if(currentUser == users[1]){
-    cuser = 1;
-  }
-  else{
-    cuser = -1;
-  }
-  currentUser = users[cuser+forwardClick];
-  // alert('clicked');
-  cuser = cuser+1;
-  showUserDetails(currentUser);
+  if(index == users.length){
+     index = users.length-users.length;
+  }else{
+    index = index+1;
+    }
+  showUserDetails(users[index]);
 }
 
 
