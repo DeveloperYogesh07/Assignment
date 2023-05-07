@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: blueviolet; */
+    background-image:url('images/background_image.jpg')
+}
+canvas{
+    display: block;
+    background: black;
+    margin:70px auto;
+    border: 1px solid blue;
+    /* margin-top: 70px; */
+    
+};
